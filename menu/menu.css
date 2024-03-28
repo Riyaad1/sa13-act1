@@ -1,0 +1,53 @@
+#main-header {
+    font-size: 40px;
+    font-family: Arial;
+}
+
+#main_divider {
+    height: 3px;
+    background-color: #000;
+}
+
+.centered-header {
+    text-align: center;
+}
+
+hr {
+    margin: 0;
+}
+
+.rounded {
+    border: none;
+    height: 1px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.menu {
+    padding: 0;
+}
+
+.menu li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-family: 'Comic Sans MS';
+}
+
+
+body {
+    background-color: rgb(164, 180, 118);
+}
+
+.menu-item {
+    margin-right: auto;
+}
+
+.menu-price {
+    margin-left: auto;
+}
+
+h2 {
+    font-family: Arial;
+}
