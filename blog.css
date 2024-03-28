@@ -1,0 +1,32 @@
+body {
+    background-color: honeydew;
+}
+
+h1 {
+    color: rgb(194, 34, 34);
+    font-size: 20x;
+    font-family: Arial; 
+}
+
+h2 {
+    color: black;
+    font-size: 20x;
+    font-family: 'Arial narrow bold'; 
+}
+
+p {
+    color: black;
+    font-size: 16x;
+    font-family: Arial;
+}
+
+hr {
+    margin: 0;
+}
+
+.rounded {
+    border: none;
+    height: 1px;
+    background-color: #000;
+    border-radius: 5px;
+}
