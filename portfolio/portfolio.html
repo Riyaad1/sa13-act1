@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="portfolio.css">
+    </head>
+
+    <body>
+
+        <section id="home">
+            <h1>Welcome to the Portfolio!</h1>
+            <div class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Images</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>This Portfolio is a sample portfolio created for a class assignment using HTML and CSS. It contains various uses for 'ul', 'section', 'img', and 'input'.</p>
+            <hr class="rounded">
+        </section>
+
+        <section id="portfolio">
+            <h2>Sample Work</h2>
+            <div class="photos">
+                <img src="https://images.pexels.com/photos/18254876/pexels-photo-18254876/free-photo-of-waves-by-the-rocky-beach.jpeg">
+                <img src="https://images.pexels.com/photos/16579091/pexels-photo-16579091/free-photo-of-waves-on-a-rocky-beach.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                <img src="https://images.pexels.com/photos/16980276/pexels-photo-16980276/free-photo-of-rocky-beach-by-the-sea-during-sunset.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+            </div>
+            <hr class="rounded">
+        </section>
+
+        <section id="contact">
+            <div class="form">
+                <h3>Contact Me</h3>
+                <div class="input">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="input">
+                    <label for="message">Reason for Contact</label>
+                    <textarea id="message" name="message" rows="4" required> </textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </div>  
+        </section>
+    </body>
+    <footer>
+        <p>Copyright © 2024 RH</p>
+    </footer>
+</html>
